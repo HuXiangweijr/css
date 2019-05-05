@@ -9,7 +9,7 @@
 //     htmlDom.style.fontSize = htmlWidth / 10 + 'px';
 // });
 
-// 获取视窗的宽度
+//获取屏幕宽度(viewport)
 let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
 
 // 获取视窗的高度
