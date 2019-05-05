@@ -1,0 +1,100 @@
+html {
+  background-color: #8f8f8f;
+}
+
+.header {
+  height: 1.06667rem;
+  width: 100%;
+  background-color: red;
+  padding-left: 0.61333rem;
+}
+
+.header .header-item {
+  float: left;
+  font-size: 0.42667rem;
+  color: #ffcdce;
+  margin-right: 0.53333rem;
+  line-height: 1.06667rem;
+}
+
+.header .header-item:nth-child(2) {
+  color: #fff;
+  font-size: 0.45333rem;
+}
+
+.banner-content {
+  position: relative;
+}
+
+.banner-content .banner {
+  display: block;
+  width: 100%;
+  height: 5.06667rem;
+}
+
+.banner-content .banner-title {
+  position: absolute;
+  left: 0.4rem;
+  bottom: 0.4rem;
+  font-size: 0.42667rem;
+  color: #fff;
+}
+
+.news-content .news-item {
+  width: 100%;
+  height: 2.4rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  box-sizing: border-box;
+}
+
+.news-content .item-inner {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  border-bottom: 0.02667rem solid #e5e5e5;
+}
+
+.news-content .news-img {
+  float: left;
+  display: block;
+  margin-top: 0.26667rem;
+  width: 2.53333rem;
+  height: 1.86667rem;
+  margin-right: 0.4rem;
+}
+
+.news-content .news-title {
+  font-size: 0.45333rem;
+  color: #440044;
+  margin-top: 0.42667rem;
+  line-height: 0.53333rem;
+}
+
+.news-content .time {
+  position: absolute;
+  left: 2.93333rem;
+  bottom: 0.45333rem;
+  color: #888;
+  font-size: 0.32rem;
+}
+
+.news-content .num {
+  position: absolute;
+  right: 0.10667rem;
+  bottom: 0.45333rem;
+  color: #888;
+  font-size: 0.32rem;
+}
+
+.news-content .num::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.10667rem;
+  left: -0.61333rem;
+  width: 0.56rem;
+  height: 0.53333rem;
+  background-size: contain;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnklEQVQ4je2TsQ2DQBRDPQIjMAojsEFuBDYIne3q2IQRWCEjMAIbJM1dFH0BoY5iyc29/61f+AAAJJPt+6dJdigi2UVu+1ZhkvQgOQavkiZJE8k18rKTUB8QlHNuJG2StpxzE/l77ygAAOoFe+xSwCX2D/iZgK9l2VGp+AiSben9M3iRNBcvkZf/0e6FAwBs93XYdn84eCbbg+3hbOYFCJL8fjqq1EcAAAAASUVORK5CYII=);
+}
