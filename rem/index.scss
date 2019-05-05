@@ -1,7 +1,13 @@
+// scss语法
+// $px是传入的px的值
+// $rem是基准font-size
+// $return返回计算结果
 @function px2rem($px) {
     $rem: 37.5px;
     @return ($px / $rem) + rem;
 }
+// 转换规则为
+// 调用计算方法px2rem(); 传入px值
 .header {
     height: px2rem(40px);
     width: 100%;
